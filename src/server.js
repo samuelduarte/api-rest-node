@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 
 const app = express();
 
-mongoose.connect('mongodb+srv://omnistack:omnistack@omnistack.wn89r.mongodb.net/semana09?retryWrites=true&w=majority',{
+mongoose.connect('MONGO DATABASE',{
  useNewUrlParser: true,
  useUnifiedTopology: true,   
 })
